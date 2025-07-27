@@ -1,0 +1,36 @@
+#deadlockStatsLinks {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.btnDeadlockStatsLinks {
+    display: none;
+    margin-top: 10px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    text-align: center;
+    width: 40%;
+}
+
+#btnTracklock {
+    background: #0d1015;
+    color: #ecdfc2;
+}
+
+#btnDeadlocktracker {
+    background: #050c13;
+    color: #5aaeed;
+}
+
+#btnStatlocker {
+    background: #0B0B0B;
+    color: #DCDCDC;
+}
+
+#btnMobalytics {
+    background: #140f2f;
+    color: #ffffff;
+}
