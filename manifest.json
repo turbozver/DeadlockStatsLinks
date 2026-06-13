@@ -19,7 +19,7 @@
         "default_popup": "popup.html"
     },
     "background": {
-        "service_worker": "background.js"
+        "scripts": ["background.js"]
     },
     "content_scripts": [
         {
@@ -29,5 +29,14 @@
             "css": ["style.css"],
             "js": ["main.js"]
         }
-    ]
+    ],
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "turbo@deadlockstatslinks",
+            "strict_min_version": "109.0",
+            "data_collection_permissions": {
+                "required": ["none"]
+            }
+        }
+    }
 }
