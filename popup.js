@@ -59,12 +59,12 @@ function getStoreUrl(extension) {
 
     if (extension === 'steamstatslinks') {
         return isFirefox
-            ? 'https://addons.mozilla.org/ru/firefox/addon/steam-stats-links/'
+            ? 'https://addons.mozilla.org/firefox/addon/steam-stats-links/'
             : 'https://chromewebstore.google.com/detail/steam-stats-links/ojmmcmoegpnmepjokkdemcgiklaldcld';
     }
 
     return isFirefox
-        ? 'https://addons.mozilla.org/ru/firefox/addon/deadlock-stats-links/'
+        ? 'https://addons.mozilla.org/firefox/addon/deadlock-stats-links/'
         : 'https://chromewebstore.google.com/detail/deadlock-stats-links/doikcgcigaogkfgjjhaafbnodmabeomd';
 }
 
@@ -73,7 +73,6 @@ function renderRateBlock() {
         <div class="rate-stars">
             ${[1,2,3,4,5].map(star => `<span class="rateStar" data-star="${star}">&#9733;</span>`).join('')}
         </div>
-        <div class="rate-caption">Rate this extension</div>
     `;
 
     document.querySelectorAll('.rateStar').forEach(star => {

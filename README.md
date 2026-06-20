@@ -21,8 +21,18 @@ Extension adds Deadlock stats buttons to Steam profiles, linking directly to ext
 
 ## Installation
 
-- [Chrome Web Store](https://example.com/chrome/deadlock-stats-links)
-- [Firefox Add-ons](https://example.com/firefox/deadlock-stats-links)
+- [Chrome Web Store](https://chromewebstore.google.com/detail/doikcgcigaogkfgjjhaafbnodmabeomd?utm_source=item-share-cbs)
+- [Firefox Add-ons](https://addons.mozilla.org/firefox/addon/deadlock-stats-links/)
+
+## Screenshots
+
+**1. Deadlock stats buttons on a Steam profile**
+
+![Steam profile buttons](screenshots/1.png)
+
+**2. Link visibility controls in the popup**
+
+![Extension popup](screenshots/2.png)
 
 ## Contributing
 
